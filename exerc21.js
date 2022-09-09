@@ -1,8 +1,4 @@
-// seu código deve impedir uma despesa maior que o saldo disponível e no
-// final exibir o saldo atual desse projeto.
-// 2. Faça uma função que verifique se um número é perfeito ou não. Um valor é dito
-// perfeito quando ele é igual a soma dos seus divisores. Ex.: 6 é perfeito, 6 = 1 + 2 +
-// 3, que são seus divisores. A função deve retornar um valor booleano.
+// e no final exibir o saldo atual desse projeto.
 // 3. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando
 // dados sobre o salário e o número de filhos. A prefeitura deseja saber:
 // a. A média do salário da população;
@@ -21,21 +17,25 @@ let despesa = []
 let saldo = []
 let receita = []
 
+CriarProjeto()
+
+console.log(NomeProjeto())
+console.log(OrçamentoTotal())
 console.log(ReceberProjeto(saldo))
 
 function CriarProjeto() {
-    NomeProjeto(nome [index] = prompt("Qual é o nome do projeto?") )
+    NomeProjeto(nome[index] = prompt("Qual é o nome do projeto?"))
     OrçamentoTotal(orçamento[index] = prompt("Qual é o orçamento total?"))
- }
-
+}
 function ReceberProjeto(nomeParametro, valorParametro, despesaParametro) {
     for (let index = 0; index < receita; index++) {
         saldo = receita[index] + saldo
     }
     for (let index = 0; index < despesa; index--) {
         saldo = despesa[index] - saldo
-        if (despesa > saldo){
-            return 0 
+        if (despesa > saldo) {
+            return 0
         }
     }
 }
+function VerificarPerfeito()
